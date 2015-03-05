@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="Nombre"
+        android:title="@string/Nombre"
+        android:summary="@string/Nombresumm" />
+    <EditTextPreference
+        android:key="Apellido"
+        android:title="@string/Apellido"
+        android:summary="@string/Apellidosumm" />
+    <ListPreference
+        android:key="Genero"
+        android:title="@string/Genero"
+        android:dialogTitle="@string/Generosumm"
+        android:entries="@array/genero_array_entries"
+        android:entryValues="@array/genero_array_values"/>
+</PreferenceScreen>

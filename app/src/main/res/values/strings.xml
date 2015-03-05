@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Configuration Android</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Nombresumm">Nombre de la persona</string>
+    <string name="Apellido">Apellido</string>
+    <string name="Apellidosumm">Apellido de la persona</string>
+    <string name="Genero">Genero</string>
+    <string name="Generosumm">Genero de la persona</string>
+    <string name="Mujer">Mujer</string>
+    <string name="Hombre">Hombre</string>
+</resources>
