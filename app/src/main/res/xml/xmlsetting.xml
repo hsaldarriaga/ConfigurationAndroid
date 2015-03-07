@@ -3,11 +3,13 @@
     <EditTextPreference
         android:key="Nombre"
         android:title="@string/Nombre"
+        android:inputType="textCapSentences"
         android:summary="@string/Nombresumm" />
     <EditTextPreference
-        android:key="Apellido"
-        android:title="@string/Apellido"
-        android:summary="@string/Apellidosumm" />
+        android:key="Edad"
+        android:title="@string/Edad"
+        android:inputType="number"
+        android:summary="@string/Edadsumm" />
     <ListPreference
         android:key="Genero"
         android:title="@string/Genero"

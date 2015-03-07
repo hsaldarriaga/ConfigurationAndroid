@@ -23,7 +23,7 @@ public class MainActivity extends ActionBarActivity {
         super.onResume();
         SharedPreferences preference = PreferenceManager.getDefaultSharedPreferences(this);
         String name = preference.getString(getString(R.string.Nombre),"");
-        String lastname = preference.getString(getString(R.string.Apellido),"");
+        String lastname = preference.getString(getString(R.string.Edad),"");
         String genre = preference.getString(getString(R.string.Genero),"");
         TextView n,l,g;
         n = (TextView) findViewById(R.id.name);

@@ -1,8 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" tools:context=".MainActivity"
-    android:background="#ff4384ff"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/blue_back">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:text="@string/Nombre"
             android:id="@+id/name"
-            android:textColor="#fff2f9f9"
+            android:textColor="#CBD0D0"
             android:textSize="60dp" />
     </LinearLayout>
 
@@ -37,7 +37,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="0.3"
-            android:background="#ff63fff6">
+            android:background="@drawable/aqua_back">
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -48,9 +48,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Apellido"
+                    android:text="@string/Edad"
                     android:id="@+id/lastname"
-                    android:textColor="#ff7e807d"
+                    android:textColor="#9A9F9F"
                     android:textSize="30dp" />
             </LinearLayout>
 
@@ -71,14 +71,14 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_weight="0.3"
-                    android:background="#ffa3ff48">
+                    android:background="@drawable/green_back">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/Genero"
                         android:id="@+id/genre"
-                        android:textColor="#ff4b4e52"
+                        android:textColor="#777B7B"
                         android:textSize="15dp" />
                 </LinearLayout>
             </LinearLayout>
